@@ -1,0 +1,31 @@
+.newsScroller {
+    height: 120px;
+    width: 260px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font: 10px/15px Verdana,Arial,sans-serif;
+    color: #333;
+    border: 1px solid #999;
+}
+.newsScroller ul {
+    margin: 0;
+    padding: 4px;
+}
+.newsScroller li {
+    list-style-type: none;
+    margin: 0 0 16px 0;
+    padding: 0;
+}
+.newsScroller a.title {
+    display: block;
+    font-weight: bold;
+    text-transform:uppercase;
+    text-decoration: none;
+}
+.newsScroller a.title, .newsScroller a.title:visited, .newsScroller a.title:hover {
+    color: #F90;
+}
+.newsScroller a.title:hover
+{
+    text-decoration: underline;
+}
